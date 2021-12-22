@@ -11,6 +11,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head><!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209481217-4"></script>
 <script>
+	gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+	
+	ga('set', 'userId', 'USER_ID'); // Set the user ID using signed-in user_id.
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
